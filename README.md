@@ -1,14 +1,14 @@
-# How
+## How
 
 ```
-$ ignite new MyAwesomeApp -b scene-components-bolerplate
+$ ignite new MyAwesomeApp -b scene-components-boilerplate
 ```
 
-# What
+## What
 
 It's a fork of [ignite-ir-boilerplate](https://github.com/infinitered/ignite-ir-boilerplate) with some tuning.
 
-# Why
+## Why
 
 Components tree:
 
@@ -26,7 +26,7 @@ You can put scene or component to a custom folder.
 Creates components and scenes as packages.
 
 
-# Generators
+## Generators
 **Component**
 ```
 $ ignite g component MyAwesomeComponent
