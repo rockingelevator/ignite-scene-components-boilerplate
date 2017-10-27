@@ -1,7 +1,7 @@
 {
   "name": "ignite-scene-components-boilerplate",
   "description": "Opinionated react-native boilerplate based on ignite-ir-boilerplate",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "author": {
     "name": "Kirill Meshkov",
