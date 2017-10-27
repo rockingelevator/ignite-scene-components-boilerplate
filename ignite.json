@@ -1,0 +1,10 @@
+{
+
+    "generators": [
+      "scene",
+      "component",
+      "redux",
+      "saga"
+    ]
+
+}
