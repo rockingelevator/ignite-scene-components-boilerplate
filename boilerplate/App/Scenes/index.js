@@ -1,5 +1,5 @@
-import RootScene from './RootScene';
-import LaunchScene from './LaunchScene';
+import RootScene from './RootScene/RootScene';
+import LaunchScene from './LaunchScene/LaunchScene';
 
 export {
   RootScene,

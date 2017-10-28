@@ -31,17 +31,13 @@ module.exports = async function (context) {
       target: `App/Components/${path}/styles.js`
     },
     {
-      template: 'package.json.ejs',
-      target: `App/Components/${path}/package.json`
-    },
-    {
       template: 'component.story.js.ejs',
       target: `App/Components/${path}/${name}.story.js`
     }
   ]
 
   ignite.patchInFile(`${APP_PATH}/App/Components/index.js`, {
-    insert: `import ${name} from './${path}';`,
+    insert: `import ${name} from './${path}/${name}';`,
     before: `export {`
   })
 
@@ -51,7 +47,7 @@ module.exports = async function (context) {
   })
 
   ignite.patchInFile(`${APP_PATH}/App/Components/Stories.js`, {
-    insert: `import './${path}.story';`,
+    insert: `import './${path}/${name}.story';`,
     after: ''
   })
 

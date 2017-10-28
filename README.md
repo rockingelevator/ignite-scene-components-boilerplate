@@ -18,12 +18,10 @@ Components
    |__MyComponent
       |__MyComponent.js
       |__styles.js
-      |__package.json
       |__MyComponents.story.js
 ```
 You can use generators to create scenes, components, redux related files and sagas.
 You can put scene or component to a custom folder.
-Creates components and scenes as packages.
 
 
 ## Generators
