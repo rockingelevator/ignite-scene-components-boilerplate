@@ -63,7 +63,8 @@ async function install (context) {
     { template: 'ignite/ignite.json', target: 'ignite/ignite.json' },
     { template: '.babelrc', target: '.babelrc' },
     { template: 'storybook/storybook.ejs', target: 'storybook/storybook.js' },
-    { template: '.env.example', target: '.env.example' }
+    { template: '.env.example', target: '.env.example' },
+    { template: '.eslintrc.js', target: '.eslintrc.js' }
   ]
   const templateProps = {
     name,
